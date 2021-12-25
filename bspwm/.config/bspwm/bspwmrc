@@ -1,0 +1,38 @@
+#! /bin/sh
+#######################################################
+##                                                   ##
+##  ______  ___________ _    ____  ________  _____   ##
+##  | ___ \/  ___| ___ \ |  | |  \/  | ___ \/  __ \  ##
+##  | |_/ /\ `--.| |_/ / |  | | .  . | |_/ /| /  \/  ##
+##  | ___ \ `--. \  __/| |/\| | |\/| |    / | |      ##
+##  | |_/ //\__/ / |   \  /\  / |  | | |\ \ | \__/\  ##
+##  \____/ \____/\_|    \/  \/\_|  |_|_| \_| \____/  ##
+##   By:Sigladon                                     ## 
+##                                                   ##
+#######################################################
+#esto es una prueba
+
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+~/.config/polybar/launch.sh --hack
+xrandr --output DVI-0 --primary --mode 1600x900 --rotate normal 
+bspc monitor DVI-0 -d I II III IV V VI VII VIII IX X
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule --add *:google-chrome desktop='^6'
+bspc rule --add *:music.youtube.com desktop='^10'
+bspc rule -a Alacritty desktop=^1
+bspc rule -a vlc desktop=^8*: 
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+xsetroot -cursor_name left_ptr &
+picom -f &
+nitrogen --restore &
+

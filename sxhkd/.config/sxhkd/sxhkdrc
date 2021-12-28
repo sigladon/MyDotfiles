@@ -65,7 +65,7 @@ super + ctrl + {6,7,8,9}
 #
 
 # focus the node in the given direction
-super + {_,shift + }{n,s,l,dead_acute}
+super + {_,shift + }{h,j,k,l}
         bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
@@ -99,7 +99,7 @@ super + {_,shift + }{1,2,3,4,5,period,comma,ntilde,p,y}
 #
 
 # preselect the direction
-super + ctrl + alt + {n,s,l,dead_acute} 
+super + ctrl + alt + {h,j,k,l} 
 	bspc node -p {west,south,north,east}
 
 # preselect the ratio
@@ -117,12 +117,12 @@ super + ctrl + shift + space
 #
 # move/resize
 #
-super + alt + {n,s,l,dead_acute}
+super + alt + {h,j,k,l}
     /home/sigladon/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
 
 # move a floating window
-super + ctrl + {n,s,l,dead_acute} 
+super + ctrl + {h,j,k,l} 
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 #

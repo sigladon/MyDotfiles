@@ -20,3 +20,4 @@ o.ruler = true
 o.tabstop = 2
 o.number = true
 o.relativenumber = true
+o.showmode = true

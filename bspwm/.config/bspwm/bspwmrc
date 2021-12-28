@@ -15,8 +15,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 ~/.config/polybar/launch.sh --hack
-xrandr --output DVI-0 --primary --mode 1600x900 --rotate normal 
-bspc monitor DVI-0 -d I II III IV V VI VII VIII IX X
+xrandr --output DVI-I-1 --primary --mode 1600x900 --rotate normal 
+bspc monitor DVI-I-1 -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         2
 bspc config window_gap          12

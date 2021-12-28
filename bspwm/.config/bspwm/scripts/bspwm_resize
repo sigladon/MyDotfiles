@@ -1,4 +1,5 @@
- 
+#!/usr/bin/zsh
+
 if bspc query -N -n focused.floating > /dev/null; then
     step=20
 else

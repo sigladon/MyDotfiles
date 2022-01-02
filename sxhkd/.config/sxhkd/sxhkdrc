@@ -17,7 +17,7 @@ super + Return
         alacritty
 
 # Program Launcher
-super + masculine
+super + Escape
         rofi -show run
 
 # Reload sxhkd configuration files
@@ -115,7 +115,7 @@ super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
-# move/resize
+# move/Escape
 #
 super + alt + {h,j,k,l}
     /home/sigladon/.config/bspwm/scripts/bspwm_resize {west,south,north,east}

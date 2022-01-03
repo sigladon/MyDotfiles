@@ -129,9 +129,9 @@ super + ctrl + {h,j,k,l}
 # Screen Capture
 #
 
-# fullscreen
+# fullscree
 super + Print
-	scrot '%Y-%m-%d_%H%M%S.png' -e 'mv $f ~/documents/images/screenshots'
+	scrot '~/Pictures/Screenshots/%Y-%m-%d_%H%M%S.png'
 # 
 #
 #

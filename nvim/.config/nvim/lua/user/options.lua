@@ -5,10 +5,10 @@ local options = {
 	backup = false,
 	clipboard = "unnamedplus",
 	cmdheight = 4,
-	--cursorline = true,
+	--cursorline = "ON",
 	--cursorlineopt = "number",
 	encoding = "UTF-8",
-	expandtab = true,
+	expandtab =  true,
 	hidden = true,
 	laststatus = 0,
 	mouse = "a",
@@ -19,9 +19,14 @@ local options = {
 	number = true,
 	relativenumber = true,
 	showmode = true,
+	syntax = "ON",
+	wildmenu = true,
+	shiftwidth = 4,
+	softtabstop = 4,
 }
-
 
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
+
+vim.cmd "set path+=**"

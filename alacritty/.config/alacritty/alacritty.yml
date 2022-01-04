@@ -1,5 +1,3 @@
 import:
   - '~/.config/alacritty/config/fonts.yml'
   - '~/.config/alacritty/config/colors.yml'
-#  - '~/.config/alacritty/config/fonts'
-#  - '~/.config/alacritty/config/fonts'

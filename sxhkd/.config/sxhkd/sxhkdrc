@@ -131,7 +131,7 @@ super + ctrl + {h,j,k,l}
 
 # fullscreen
 super + Print
-	scrot '%Y-%m-%d_%H%M%S.png' -e 'mv $f ~/documents/images/screenshots'
+	scrot '/home/sigladon/Pictures/Screenshots/%Y-%m-%d_%H%M%S.png'
 # 
 #
 #
@@ -149,8 +149,8 @@ super + shift + e
 
 # Open Google Chrome
 super + shift + a
-        google-chrome-stable
+        microsoft-edge
 
 # Open Youtube Music
 super + shift + i
-        google-chrome-stable --app=https://music.youtube.com/
+        microsoft-edge --app=https://music.youtube.com/

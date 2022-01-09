@@ -16,6 +16,7 @@ local options = {
 	relativenumber = true,
 	ruler = true,
 	shiftwidth = 4,
+	shortmess = "I",
 	showmode = false,
 	showmode = true,
 	softtabstop = 4,
@@ -31,4 +32,4 @@ for k, v in pairs(options) do
 end
 
 vim.cmd "set path+=**"
-vim.cmd "colorscheme monokai"
+require('monokai').setup { palette = require('monokai').pro }

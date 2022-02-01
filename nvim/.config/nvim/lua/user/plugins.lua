@@ -48,6 +48,8 @@ return packer.startup(function(use)
   use "9mm/vim-closer" 
   -- ColorScheme
   use "tanvirtin/monokai.nvim"
+  use {"sonph/onehalf", rtp = 'vim'}
+  use "ayu-theme/ayu-vim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

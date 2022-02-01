@@ -1,6 +1,6 @@
 local options = {
 	autoindent = true,
-	background = "dark",
+	background = "light",
 	backup = false,
 	clipboard = "unnamedplus",
 	cmdheight = 4,
@@ -32,4 +32,5 @@ for k, v in pairs(options) do
 end
 
 vim.cmd "set path+=**"
-require('monokai').setup { palette = require('monokai').pro }
+----  vim.cmd "colorscheme onehalflight"
+

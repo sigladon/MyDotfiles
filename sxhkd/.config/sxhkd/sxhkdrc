@@ -130,9 +130,16 @@ super + ctrl + {h,j,k,l}
 #
 
 # fullscreen
+Print
+	flameshot gui
+
 super + Print
-	scrot '/home/sigladon/Pictures/Screenshots/%Y-%m-%d_%H%M%S.png'
+	flameshot screen -p /home/sigladon/Pictures/Screenshots
+
+super + alt + Print
+	flameshot full -p /home/sigladon/Pictures/Screenshots 
 # 
+#
 #
 #
 #
@@ -149,8 +156,8 @@ super + shift + e
 
 # Open Google Chrome
 super + shift + a
-        microsoft-edge
+        microsoft-edge-stable
 
 # Open Youtube Music
 super + shift + i
-        microsoft-edge --app=https://music.youtube.com/
+        microsoft-edge-stable --app=https://music.youtube.com/

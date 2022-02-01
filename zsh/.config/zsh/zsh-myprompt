@@ -1,0 +1,3 @@
+#/bin/sh
+
+PROMPT='[%B%n%F{red}@%f%M%b]% ~ %# '

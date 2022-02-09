@@ -1,3 +1,3 @@
-#/bin/sh
+#1/bin/sh
 
-PROMPT='[%B%n%F{red}@%f%M%b]% ~ %# '
+PROMPT='[%B%n%F{green}@%f%M%b] > %# %F{yellow}%B%~%b%f '

@@ -46,6 +46,9 @@ return packer.startup(function(use)
   use "tpope/vim-endwise"
   use "tpope/vim-surround"
   use "9mm/vim-closer" 
+  -- code runner 
+  -- use { 'michaelb/sniprun', run = 'bash ./install.sh'}
+
   -- ColorScheme
   use "tanvirtin/monokai.nvim"
   use {"sonph/onehalf", rtp = 'vim'}

@@ -1,12 +1,12 @@
 local options = {
 	autoindent = true,
-	background = "light",
+	background = "dark",
 	backup = false,
 	clipboard = "unnamedplus",
-	cmdheight = 4,
+	cmdheight = 1,
 	copyindent = true,
-	--cursorline = "ON",
 	--cursorlineopt = "number",
+	cursorline = true,
 	encoding = "UTF-8",
 	expandtab =  true,
 	hidden = true,
@@ -18,7 +18,7 @@ local options = {
 	shiftwidth = 4,
 	shortmess = "I",
 	showmode = false,
-	showmode = true,
+	showcmd = true,
 	softtabstop = 4,
 	syntax = "ON",
 	tabstop = 2,
@@ -32,5 +32,15 @@ for k, v in pairs(options) do
 end
 
 vim.cmd "set path+=**"
-----  vim.cmd "colorscheme onehalflight"
+
+
+
+
+
+
+
+
+
+
+
 

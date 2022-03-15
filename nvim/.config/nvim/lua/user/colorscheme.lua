@@ -1,8 +1,7 @@
 vim.cmd [[
 im.cmd [[
 try
-  let ayucolor="dark"
-  colorscheme ayu
+  colorscheme gruvbox
 catch /^Vim\%((\a\+)\)\=:E185/
   colorscheme default
   set background=dark

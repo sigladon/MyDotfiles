@@ -43,9 +43,13 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
-  use "tpope/vim-endwise"
-  use "tpope/vim-surround"
-  use "9mm/vim-closer" 
+  use "windwp/nvim-autopairs" -- autopairs
+  use "nvim-lualine/lualine.nvim" -- Statusline written in Lua
+  use "kyazdani42/nvim-web-devicons"
+  use "norcalli/nvim-colorizer.lua" -- A High-performance color highlighter
+  use "kyazdani42/nvim-tree.lua" -- File Explorer
+  use "turbio/bracey.vim" -- Live server
+  use "digitaltoad/vim-pug"
   -- code runner 
   -- use { 'michaelb/sniprun', run = 'bash ./install.sh'}
 
@@ -53,6 +57,7 @@ return packer.startup(function(use)
   use "tanvirtin/monokai.nvim"
   use {"sonph/onehalf", rtp = 'vim'}
   use "ayu-theme/ayu-vim"
+  use "ellisonleao/gruvbox.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin

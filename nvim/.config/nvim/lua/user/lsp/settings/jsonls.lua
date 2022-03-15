@@ -180,4 +180,4 @@ local opts = {
   },
 }
 
-return optsr
+return opts
